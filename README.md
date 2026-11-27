@@ -242,4 +242,4 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
 
 ## 📜 Créditos
 
-* **Desenvolvimento & Projeto:** `Olofmaike` (`OlofmaikesMenu v3.3.1`)[cite: 1]
+* **Desenvolvimento & Projeto:** `Olofmaike` (`OlofmaikesMenu v3.3.1`)
