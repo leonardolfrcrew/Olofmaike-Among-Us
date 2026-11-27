@@ -2,7 +2,7 @@
 
 # 🛸 Olofmaike Among Us (`OlofmaikesMenu`)
 
-**Mod Menu completo e edição customizada para Among Us (Windows) com suporte a partidas Online e Offline.**
+**Mod Menu completo para Among Us (Windows) com suporte a partidas Online e Offline.**
 
 [![Versão do Mod](https://img.shields.io/badge/Versão-3.3.1-blue?style=for-the-badge)]()
 [![Versão do Jogo](https://img.shields.io/badge/Among%20Us-2026.9.29-red?style=for-the-badge)]()
@@ -17,7 +17,7 @@
 
 ## 📋 Sobre o Projeto
 
-O **Olofmaike Among Us** (`OlofmaikesMenu v3.3.1`) é um mod menu avançado desenvolvido em C# sobre a arquitetura **BepInEx Unity IL2CPP** e **Harmony**, com suporte completo para partidas **Online** (salas públicas e privadas), **Multijogador Local (LAN)** e **Treino Offline (Freeplay)**.
+O **Olofmaike Among Us** (`OlofmaikesMenu v3.3.1`) é um mod menu avançado desenvolvido para Windows sobre a arquitetura **BepInEx Unity IL2CPP**, com suporte completo para partidas **Online** (salas públicas e privadas), **Multijogador Local (LAN)** e **Treino Offline (Freeplay)**.
 
 A instalação é direta (**arrastar e soltar**): basta extrair os arquivos da release e jogá-los dentro da pasta raiz onde o seu *Among Us* está instalado.
 
@@ -206,9 +206,9 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
   * **RGB Mode:** Efeito arco-íris dinâmico na interface do menu.
   * **Stealth Mode:** Oculta elementos visuais do mod na tela.
   * **Panic Mode (`PanicCleaner`):** Desativa e limpa instantaneamente todos os recursos ativos do mod com um clique.
-* **Sistema de Perfis (`MalumProfile.txt`):**
+* **Sistema de Perfis:**
   * **Save to Profile / Load from Profile:** Salva todas as suas opções ativadas e atalhos de teclado (`Keybinds`) personalizadas para carregar automaticamente ao abrir o jogo.
-  * **Open Config / Reload Config:** Abre e recarrega o arquivo de configuração diretamente pelo menu.
+  * **Open Config / Reload Config:** Abre e recarrega o arquivo de configuração diretamente pelo menu[cite: 1].
 
 ---
 
@@ -230,11 +230,10 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
 | **Aviso de versão incompatível no Menu Principal** | O mod foi compilado para a versão `2026.9.29`. Verifique se o seu jogo está nessa versão ou baixe uma release atualizada. |
 | **O jogo abre normal, mas o menu não aparece ao apertar `Delete`** | Verifique se você jogou os arquivos na **raiz** da pasta (onde está o `Among Us.exe`) e não dentro de uma subpasta extra. |
 | **O antivírus apagou o `winhttp.dll` ou a pasta `BepInEx`** | Arquivos de injeção `.dll` costumam gerar falsos positivos. Adicione a pasta do *Among Us* às exceções do Windows Defender e extraia novamente. |
-| **Erro ao entrar na sala Online com amigos** | Para funções de **Host-Only** e **Force Role**, certifique-se de que você é o anfitrião (*Host*) da sala. |
+| **Erro ao entrar na sala Online com amigos** | Para funções de **Host-Only** e **Force Role**, certifique-se de que você é o anfitrião (*Host*) da sala[cite: 1]. |
 
 ---
 
 ## 📜 Créditos
 
-* **Base Original (`MalumMenu`):** `scp222thj` & `Astral` (`astra1dev`)
-* **Edição & Personalização Visual:** `Olofmaike`
+* **Desenvolvimento & Projeto:** `Olofmaike` (`OlofmaikesMenu v3.3.1`)[cite: 1]
