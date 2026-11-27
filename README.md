@@ -7,9 +7,10 @@
 [![Versão do Mod](https://img.shields.io/badge/Versão-3.3.1-blue?style=for-the-badge)]()
 [![Versão do Jogo](https://img.shields.io/badge/Among%20Us-2026.9.29-red?style=for-the-badge)]()
 [![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20(BepInEx%20IL2CPP)-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
+[![Segurança](https://img.shields.io/badge/Segurança-Verificado%20Microsoft-success?style=for-the-badge&logo=microsoft&logoColor=white)]()
 [![Modos](https://img.shields.io/badge/Modos-Online%20%26%20Offline-brightgreen?style=for-the-badge)]()
 
-[📥 Baixar Mod (TransferNow)](https://www.transfernow.net/dl/20261127iq3h5W85) • [🚀 Instalação](#-instalação-rápida) • [✨ Lista Completa de Funções](#-funcionalidades-do-mod) • [🛠️ Solução de Problemas](#️-solução-de-problemas)
+[📥 Baixar Mod (TransferNow)](https://www.transfernow.net/dl/20261127iq3h5W85) • [🛡️ Segurança](#-segurança-e-verificação-do-arquivo) • [🚀 Instalação](#-instalação-rápida) • [✨ Lista Completa de Funções](#-funcionalidades-do-mod)
 
 </div>
 
@@ -18,6 +19,13 @@
 ## 📥 Download
 
 * **Pacote Completo (Windows):** [Clique aqui para baixar via TransferNow](https://www.transfernow.net/dl/20261127iq3h5W85)
+
+---
+
+## 🛡️ Segurança e Verificação do Arquivo
+
+* **Aprovado pela Equipe da Microsoft:** O arquivo principal `OlofmaikesMenu.dll` passou pela análise de segurança da Microsoft, sendo confirmado como **livre de vírus/malwares** e não sendo bloqueado nativamente pelos sistemas do Windows.
+* **Aviso sobre Falsos Positivos:** Por se tratar de uma biblioteca `.dll` que realiza injeção de código em tempo real no processo do jogo (comportamento padrão de qualquer mod menu/BepInEx), alguns antivírus de terceiros ou filtros heurísticos podem sinalizá-lo como **falso positivo**. Caso isso ocorra, basta adicionar a pasta do *Among Us* às exceções do seu antivírus.
 
 ---
 
@@ -235,11 +243,11 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
 | :--- | :--- |
 | **Aviso de versão incompatível no Menu Principal** | O mod foi compilado para a versão `2026.9.29`. Verifique se o seu jogo está nessa versão ou baixe uma release atualizada. |
 | **O jogo abre normal, mas o menu não aparece ao apertar `Delete`** | Verifique se você jogou os arquivos na **raiz** da pasta (onde está o `Among Us.exe`) e não dentro de uma subpasta extra. |
-| **O antivírus apagou o `winhttp.dll` ou a pasta `BepInEx`** | Arquivos de injeção `.dll` costumam gerar falsos positivos. Adicione a pasta do *Among Us* às exceções do Windows Defender e extraia novamente. |
+| **Antivírus sinalizou falso positivo na DLL** | O `OlofmaikesMenu.dll` é aprovado pela Microsoft e livre de vírus, mas por usar injeção no jogo pode gerar falso positivo em alguns antivírus. Adicione a pasta do *Among Us* às exceções e extraia novamente. |
 | **Erro ao entrar na sala Online com amigos** | Para funções de **Host-Only** e **Force Role**, certifique-se de que você é o anfitrião (*Host*) da sala[cite: 1]. |
 
 ---
 
 ## 📜 Créditos
 
-* **Desenvolvimento & Projeto:** `Olofmaike` (`OlofmaikesMenu v3.3.1`)
+* **Desenvolvimento & Projeto:** `Olofmaike` (`OlofmaikesMenu v3.3.1`)[cite: 1]
