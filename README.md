@@ -59,6 +59,8 @@ O **Olofmaike Among Us (`OlofmaikesMenu v3.3.1`)** transforma completamente sua 
 * **Aprovado pela Equipe da Microsoft:** O arquivo principal `olofmaikesmenu.dll` foi submetido e revisado manualmente pelos analistas do **Microsoft Security Intelligence** em **25 de Novembro de 2026**, sendo confirmado como **100% livre de vírus/malwares** e remediado para **não ser mais bloqueado pelo Smart App Control / Windows Defender**.
 * **Parecer Oficial do Analista Microsoft:**
   > *"After review, one or more files from submission were confirmed to be incorrectly blocked by Smart App Control. This has now been remediated, and the file(s) will no longer be blocked."*
+* **Comprovante Oficial da Análise:**  
+  📸 **[Clique aqui para visualizar o print da aprovação no Microsoft Security Intelligence](https://prnt.sc/lL23iNevpgIv)**
 * **Aviso sobre Antivírus de Terceiros (Falsos Positivos):**  
   Embora o Windows e o Smart App Control já reconheçam o arquivo como seguro, alguns antivírus de terceiros utilizam filtros heurísticos que podem apontar **falso positivo** pelo fato de o mod utilizar injeção de código (`BepInEx`) no processo do *Among Us*. Caso seu antivírus bloqueie algum arquivo, basta restaurá-lo e adicionar a pasta do jogo às exceções.
 
@@ -319,7 +321,7 @@ Força a reprodução das animações visuais para todos os jogadores verem (ou 
 | :--- | :--- | :--- |
 | **Aviso de versão incompatível no Menu Principal** | A versão do seu *Among Us* difere da build suportada (`2026.9.29`). | Atualize seu jogo na loja ou baixe a versão correspondente do mod. |
 | **O jogo abre normal, mas apertar `Delete` não abre o menu** | Os arquivos foram colados dentro de uma subpasta em vez da raiz. | Mova todos os arquivos para a mesma pasta onde está o `Among Us.exe`. |
-| **Antivírus de terceiros acusou ameaça na DLL** | Falso positivo heurístico comum em mods de injeção. O `olofmaikesmenu.dll` já foi aprovado pela Microsoft (`ID: 01acff21-7064-4af9-a300-0c967e298dde`). | Adicione a pasta do *Among Us* às exceções do seu antivírus e extraia novamente. |
+| **Antivírus de terceiros acusou ameaça na DLL** | Falso positivo heurístico comum em mods de injeção. O `olofmaikesmenu.dll` já foi aprovado pela Microsoft ([ver comprovante](https://prnt.sc/lL23iNevpgIv)). | Adicione a pasta do *Among Us* às exceções do seu antivírus e extraia novamente. |
 | **Funções de "Host-Only" ou "Force Role" não funcionam** | Você entrou na sala de outra pessoa e não é o anfitrião (*Host*). | Crie sua própria sala privada/pública para ser o Host e liberar esses comandos. |
 | **O jogo fecha sozinho logo ao abrir** | Algum arquivo ficou faltando ou foi bloqueado durante a extração. | Extraia o `.zip` novamente e substitua todos os arquivos na pasta raiz do jogo. |
 
@@ -335,7 +337,7 @@ Força a reprodução das animações visuais para todos os jogadores verem (ou 
   * **0Harmony (HarmonyLib):** Biblioteca para aplicação de patches em tempo real.
   * **.NET 6.0 / C#:** Linguagem e runtime utilizados no desenvolvimento do menu.
 * **Segurança & Distribuição:**
-  * Arquivo `olofmaikesmenu.dll` verificado e liberado oficialmente pelo **Microsoft Security Intelligence** (`Submission ID: 01acff21-7064-4af9-a300-0c967e298dde`).
+  * Arquivo `olofmaikesmenu.dll` verificado e liberado oficialmente pelo **Microsoft Security Intelligence** (`Submission ID: 01acff21-7064-4af9-a300-0c967e298dde` — [Ver comprovante](https://prnt.sc/lL23iNevpgIv)).
   * Hospedagem oficial via TransferNow.
 
 ---
@@ -343,6 +345,6 @@ Força a reprodução das animações visuais para todos os jogadores verem (ou 
 <div align="center">
 
 **🛸 Olofmaike Among Us (`OlofmaikesMenu v3.3.1`)**  
-Desenvolvido por **Olofmaike** • Todos os direitos reservados à comunidade de modding[cite: 1, 2].
+Desenvolvido por **Olofmaike** • Todos os direitos reservados à comunidade de modding.
 
 </div>
